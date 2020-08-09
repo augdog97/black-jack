@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Vesper+Libre:wght@900&display=swap" rel="stylesheet">
+    <title>BlackJack</title>
+  </head>
+  <body>
+    <!--wrap all our card content in a grid -->
+  <div class="grid">
+    <div class="title">
+      <h1 >BlackJack</h1>
+    </div>
+    <div class="dealer">
+      <p>Dealer</p>
+      <div id = "dealer" class="dCard1">
+
+      </div>
+    </div>
+    <div class="deck">
+      <p>Deck</p>
+
+      <div id = "deck" class="cardDeck">
+
+      </div>
+    </div>
+    <div id = "user" class="user">
+      <p>You</p>
+
+      <div class="uCard1">
+
+      </div>
+
+    </div>
+    <div class="button-container">
+        <button type="button" id="deal" value="deal" >Deal</button>
+        <br>
+        <button type="button" id="hold" >Hold</button>
+        <br>
+        <button type="button" id="hit">Hit</button>
+    </div>
+  </div>
+  <script type="text/javascript" src="script.js"> 
+  </script>
+  </body>
+</html>
